@@ -19,8 +19,7 @@ from django.urls import include, path
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
-    path("", include("app.urls")),
-    path("products", include("products.urls")),
+    path("", include("products.urls")),
     path('admin/', admin.site.urls),
 ]
 
