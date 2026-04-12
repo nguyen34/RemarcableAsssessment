@@ -4,7 +4,13 @@ Home
 {% endblock %}
 {% block content %}
 <h2>Products</h2>
-
+<form method="GET" class="product-filter-form">
+    {% csrf_token %}
+    <div class="filter-fields">
+        {{ form.as_div }}
+    </div>
+    <button type="submit" class="save btn btn-default">Search</button>
+</form>
 {% if product_list %}
 <table class="product_list">
     <thead>
