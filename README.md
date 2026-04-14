@@ -6,12 +6,16 @@ Ensure you have a version of Python and pip installed to run this application. P
 
 ## (Recommended) Install and set up a Virtual Environment to run the application:
 
-    pip install virtualenv
+    sudo apt install python3-virtualenv
     virtualenv .env
 
 Once you created your virtual environment, you can then activate the environment via this command:
 
     source .env/bin/activate
+
+If you just created this virtual environment, you may need to install django after you've entered it:
+
+    pip install django
 
 ## To run the project, you can use the following command:
 
