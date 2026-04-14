@@ -24,6 +24,6 @@ Once you created your virtual environment, you can then activate the environment
 ## Additional Notes
 I built out this solution with the intention of using as little additional frameworks/libraries/dependencies as possible, aside from the essential Django Web Framework. 
 
-There were additional things I considered such as prepping the views into API endpoints that can be used by other front-end frameworks but that would go against what I was trying to achieve in my first statement, and installing Django Rest Frameworks and would seem unnecessary since I opted for Django Templates for this particular problem
+There were additional things I considered such as prepping the views into API endpoints that can be used by other front-end frameworks but that would go against what I was trying to achieve in my first statement, and installing Django Rest Frameworks and would seem unnecessary since I opted for Django Templates for this particular problem.
 
 Another item I was debating on whether I wanted to use Function Based or Class Based Views for this problem. I opted for Class Based more out of curiosity since I've worked with Function Based Views from previous work experiences and I wanted to try and learn first hand what developing Class Based Views were like.
