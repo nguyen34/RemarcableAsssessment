@@ -1,7 +1,7 @@
 from django.test import TestCase
 from products.models import Product, Category, Tag
-# Create your tests here.
 
+# Simple Test Cases to encapsulate product filtering behaviour
 class SandwichProductTestCase(TestCase):
 
     def setUp(self):
